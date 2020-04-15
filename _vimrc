@@ -59,7 +59,7 @@ set noundofile
 
 set renderoptions=type:directx
 set encoding=utf-8
-set guifont=Fira_Code:h14:W450:cANSI:qDRAFT
+set guifont=Fira_Code:h18:W450:cANSI:qDRAFT
 
 inoremap {<cr> {<cr>} <c-o><s-o>
 inoremap [ []<left>
@@ -68,9 +68,6 @@ inoremap ' ''<left>
 inoremap ` ``<left>
 inoremap " ""<left>
 
-nmap <F6> <Plug>ColorstepPrev
-nmap <F7> <Plug>ColorstepNext
-nmap <S-F7> <Plug>ColorstepReload
 
 if (&term =~ '^xterm' && &t_Co == 256)
   set t_ut= | set ttyscroll=1
